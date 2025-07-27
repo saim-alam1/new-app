@@ -14,7 +14,7 @@ const ProductPage = () => {
         <MdKeyboardArrowRight className="text-xl" />
         <p className="text-[16px] text-gray-600">MANUFACTURER</p>
         <MdKeyboardArrowRight className="text-xl" />
-        <p className="text-[16px] font-bold">
+        <p className="text-[14px] md:text-[16px] font-bold">
           ZANUSSI DISHWASHER SUCTION PIPE MANIFOLD
         </p>
       </div>
@@ -77,20 +77,20 @@ const ProductPage = () => {
       <div className="mt-20 grid grid-cols-1 lg:grid-cols-2">
         <div>
           <div className="flex items-center">
-            <h5 className="bg-red-600 p-4 rounded-l-full font-bold text-2xl text-white">
+            <h5 className="bg-red-600 p-4 rounded-l-full font-bold md:text-2xl text-white">
               Product Details
             </h5>
-            <h5 className="border border-red-600 p-3.5 rounded-r-full text-2xl font-bold">
+            <h5 className="border border-red-600 p-3.5 rounded-r-full md:text-2xl font-bold">
               Additional information
             </h5>
           </div>
-          <p className="w-[570px] mt-10 text-gray-600">
+          <p className="md:w-[570px] mt-10 text-gray-600">
             FOR ZANUSSI ELECTROLUX HOOD DYPE DISHWASHER NHT8 , KHT8 , EHT8 ,
             ZHT8I , AHT8I , EHT8I , ZHT8TI , EHT8TI ZANUSSI TUBO DE SUCÇÃO PARA
             MÁQUINA DE LAVAR LOUÇA
           </p>
         </div>
-        <div className="md:pt-7 lg:pt-0">
+        <div className="pt-7 lg:pt-0">
           <button className="flex items-center justify-center gap-2 w-full border border-red-600 py-3 font-bold text-[16px] rounded-full cursor-pointer mb-3.5">
             <FaWhatsapp className="text-green-500 text-[16px]" /> Send message
             on What's app

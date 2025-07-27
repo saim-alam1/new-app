@@ -2,8 +2,8 @@ const RelatedProducts = () => {
   return (
     <div className="bg-[#f4f3ef]">
       <div className="max-w-[1280px] mx-auto px-3">
-        <div className="p-8 lg:p-20">
-          <h1 className="font-bold text-5xl text-center pt-9 lg:pt-0">
+        <div className="p-4 md:p-8 lg:p-20">
+          <h1 className="font-bold text-3xl md:text-5xl text-center pt-9 lg:pt-0">
             Related Products
           </h1>
 
