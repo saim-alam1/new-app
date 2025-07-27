@@ -74,7 +74,7 @@ const ProductPage = () => {
       </div>
 
       {/* Card Info's */}
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2">
+      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2">
         <div>
           <div className="flex items-center">
             <h5 className="bg-red-600 p-4 rounded-l-full font-bold text-2xl text-white">
@@ -87,10 +87,10 @@ const ProductPage = () => {
           <p className="w-[570px] mt-10 text-gray-600">
             FOR ZANUSSI ELECTROLUX HOOD DYPE DISHWASHER NHT8 , KHT8 , EHT8 ,
             ZHT8I , AHT8I , EHT8I , ZHT8TI , EHT8TI ZANUSSI TUBO DE SUCÇÃO PARA
-            MÁQUINA DE LAVAR LOUÇA  
+            MÁQUINA DE LAVAR LOUÇA
           </p>
         </div>
-        <div>
+        <div className="md:pt-7 lg:pt-0">
           <button className="flex items-center justify-center gap-2 w-full border border-red-600 py-3 font-bold text-[16px] rounded-full cursor-pointer mb-3.5">
             <FaWhatsapp className="text-green-500 text-[16px]" /> Send message
             on What's app

@@ -2,8 +2,10 @@ const RelatedProducts = () => {
   return (
     <div className="bg-[#f4f3ef]">
       <div className="max-w-[1280px] mx-auto px-3">
-        <div className="p-20">
-          <h1 className="font-bold text-5xl text-center">Related Products</h1>
+        <div className="p-8 lg:p-20">
+          <h1 className="font-bold text-5xl text-center pt-9 lg:pt-0">
+            Related Products
+          </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16 mb-20">
             {/* Card 1 */}
