@@ -1,10 +1,12 @@
 import "./App.css";
 import ProductPage from "./pages/ProductPage/ProductPage";
+import RelatedProducts from "./pages/ProductPage/RelatedProducts";
 
 function App() {
   return (
-    <div className="max-w-[1280px] mx-auto px-3">
-      <ProductPage></ProductPage>
+    <div>
+      <ProductPage />
+      <RelatedProducts />
     </div>
   );
 }

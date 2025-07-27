@@ -1,4 +1,3 @@
-import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 import FunctionBtn from "../../shared/FunctionBtn";
@@ -8,7 +7,7 @@ import { SiGmail } from "react-icons/si";
 
 const ProductPage = () => {
   return (
-    <div>
+    <div className="max-w-[1280px] mx-auto px-3">
       {/* Link Tab */}
       <div className="my-16 flex items-center gap-1">
         <p className="text-[16px]">Home</p>
