@@ -8,7 +8,7 @@ const ContactPage = () => {
       <div className="my-20">
         <div className="bg-gradient-to-b from-[#ff5b5f] to-[#e92231] lg:py-20 py-12 px-6 lg:px-28 rounded-3xl">
           <h1
-            className="text-[64px] font-black text-white text-center"
+            className="text-4xl md:text-[64px] font-black text-white text-center"
             style={{ textShadow: "0 6px 20px rgba(0, 0, 0, 0.6)" }}
           >
             If you need help, don't hesitate to contact our support team!
@@ -100,7 +100,7 @@ const ContactPage = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center justify-center pt-4 pb-7 space-y-4 text-center px-1">
+            <div className="flex flex-col items-center justify-center pt-4 pb-7 space-y-4 text-center p-1.5 md:px-1">
               <p className="text-[16px] font-bold text-[#767779]">
                 Quinta das rosas lote 3 RC Esq 6200-551 Covilha Portugal
               </p>
