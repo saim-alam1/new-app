@@ -1,4 +1,4 @@
-import { FaRegCheckCircle } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight, FaRegCheckCircle } from "react-icons/fa";
 
 const StorePage = () => {
   return (
@@ -267,6 +267,37 @@ const StorePage = () => {
               Add to Cart
             </button>
           </div>
+        </div>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-center gap-5 mb-20">
+        {/* Box - 1 */}
+        <div className="p-5 border border-gray-400 rounded-[8px] cursor-pointer">
+          <FaAngleLeft className="text-gray-400" />
+        </div>
+        {/* Box - 2 */}
+        <div className="py-4 px-7  bg-red-600 rounded-[8px] cursor-pointer">
+          <h1 className="text-[18px] font-bold text-white">1</h1>
+        </div>
+        {/* Box - 3 */}
+        <div className="py-4 px-7  border border-gray-400 rounded-[8px] cursor-pointer">
+          <h1 className="text-[18px] font-bold text-gray-400">2</h1>
+        </div>
+        {/* Box - 4 */}
+        <div className="py-4 px-7  border border-gray-400 rounded-[8px] cursor-pointer">
+          <h1 className="text-[18px] font-bold text-gray-400">3</h1>
+        </div>
+        {/* Box - 5 */}
+        <div className="py-4 px-7  border border-gray-400 rounded-[8px] cursor-pointer">
+          <h1 className="text-[18px] font-bold text-gray-400">4</h1>
+        </div>
+        {/* Box - 6 */}
+        <div className="py-4 px-7  border border-gray-400 rounded-[8px] cursor-pointer">
+          <h1 className="text-[18px] font-bold text-gray-400">5</h1>
+        </div>
+        {/* Box - 7 */}
+        <div className="p-5 border border-gray-400 rounded-[8px] cursor-pointer">
+          <FaAngleRight className="text-red-600" />
         </div>
       </div>
     </div>
