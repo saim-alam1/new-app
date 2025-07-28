@@ -140,6 +140,14 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+
+      <div className="mb-20">
+        <img
+          className="rounded-2xl"
+          src="https://i.ibb.co/4wJNnNfp/616abdd005afd9a4d2249d68deb39bcb4e2a00a2.png"
+          alt="Product Image"
+        />
+      </div>
     </div>
   );
 };
